@@ -10,10 +10,10 @@ GPIO.output(LedPin, GPIO.HIGH) # Set LedPin high(+3.3V) to off led
 
 try:
 	while True:
-		print '...led on'
+		print '...led on...sam'
 		GPIO.output(LedPin, GPIO.LOW)  # led on
 		time.sleep(0.5)
-		print 'led off...'
+		print 'led off...sam'
 		GPIO.output(LedPin, GPIO.HIGH) # led off
 		time.sleep(0.5)
 except KeyboardInterrupt:  # When 'Ctrl+C' is pressed, the flowing code will be  executed.
